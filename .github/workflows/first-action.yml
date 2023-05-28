@@ -7,6 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print Greeting
-        run: echo "hello person"
-      - name: Print Face
-        run: echo ":)"
+        run: |
+          echo "hello person"
+          echo ":)"
